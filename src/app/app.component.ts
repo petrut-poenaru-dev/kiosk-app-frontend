@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {AppService} from "./services/app.service";
 import {CommonModule} from "@angular/common";
@@ -12,7 +12,7 @@ import {TranslateModule, TranslateService} from "@ngx-translate/core";
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent implements OnInit{
+export class AppComponent{
   title = 'frontend';
   public bundleSettings!:{languages:Array<string>};
   public products:any;

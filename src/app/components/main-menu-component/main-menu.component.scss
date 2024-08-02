@@ -1,0 +1,39 @@
+
+.main-menu-container{
+  background-image: url("../../../assets/images/banner.png");
+  width: 1080px;
+  height: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 360px;
+    .main-menu-title{
+      font-size: 100px;
+      color:var(--color-white);
+    }
+  .buttons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    .section{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      background: cyan;
+      padding: 32px;
+      color:var(--color-white);
+      width: 33%;
+      cursor: pointer;
+      &-icon{
+        font-size: 80px;
+      }
+      &:hover{
+        background: white;
+        color:cyan;
+      }
+    }
+  }
+}

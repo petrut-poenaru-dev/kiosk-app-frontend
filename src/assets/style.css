@@ -1,19 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root{
-  --color-white:#fff;
-}
-body{
-  margin: 0;
-  padding: 0;
-  font-family: Poppins;
-}
 @font-face {
   font-family: 'kiosk-app';
-  src:  url('assets/fonts/kiosk-app.eot?dlz75g');
-  src:  url('assets/fonts/kiosk-app.eot?dlz75g#iefix') format('embedded-opentype'),
-  url('assets/fonts/kiosk-app.ttf?dlz75g') format('truetype'),
-  url('assets/fonts/kiosk-app.woff?dlz75g') format('woff'),
-  url('assets/fonts/kiosk-app.svg?dlz75g#kiosk-app') format('svg');
+  src:  url('fonts/kiosk-app.eot?dlz75g');
+  src:  url('fonts/kiosk-app.eot?dlz75g#iefix') format('embedded-opentype'),
+    url('fonts/kiosk-app.ttf?dlz75g') format('truetype'),
+    url('fonts/kiosk-app.woff?dlz75g') format('woff'),
+    url('fonts/kiosk-app.svg?dlz75g#kiosk-app') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

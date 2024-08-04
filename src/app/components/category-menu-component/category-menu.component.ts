@@ -43,6 +43,10 @@ export class CategoryMenuComponent {
     this._modalService.openProductDetailsModal(category , id);
   }
 
+  public openBasket(){
+    this._modalService.openBasketModal();
+  }
+
   public backToMenu(){
     this._router.navigate(['/menu']).then();
   }

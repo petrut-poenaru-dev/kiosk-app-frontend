@@ -5,6 +5,7 @@ export const categoryInitialization = {
     ingredients: '',
     weight: '',
     img: '',
-    price: 2
+    price: 2,
+    quantity:1
   }]
 }

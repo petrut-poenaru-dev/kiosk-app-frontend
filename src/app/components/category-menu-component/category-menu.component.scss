@@ -14,7 +14,8 @@
     color: var(--color-white);
     text-align: center;
     margin-bottom: 130px;
-    &.isCoffee{
+
+    &.isCoffee {
       margin-bottom: 0 !important;
     }
   }
@@ -23,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:40px;
+    gap: 40px;
     flex-wrap: wrap;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
@@ -44,20 +45,20 @@
         height: 260px;
       }
 
-      .button-title{
+      .button-title {
         font-size: 20px;
         font-weight: 500;
       }
 
-      .button-ingredients{
+      .button-ingredients {
         font-size: 14px;
       }
 
-      .button-weight{
+      .button-weight {
         align-self: flex-end;
       }
 
-      .button-price{
+      .button-price {
         font-size: 32px;
         font-weight: 600;
       }
@@ -70,15 +71,17 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    .back-button{
+
+    .back-button {
       padding-left: 32px;
-      color:var(--color-white);
+      color: var(--color-white);
       font-size: 32px;
       cursor: pointer;
     }
-    .show-basket-button{
+
+    .show-basket-button {
       padding-right: 32px;
-      color:var(--color-white);
+      color: var(--color-white);
       font-size: 32px;
       cursor: pointer;
     }

@@ -45,4 +45,9 @@ export class ProductDetailsModalComponent implements OnInit {
     })
   }
 
+  public addToBasket() {
+    this._modalService.addProductToBasket(this.product);
+    this._modalService.closeModal();
+  }
+
 }

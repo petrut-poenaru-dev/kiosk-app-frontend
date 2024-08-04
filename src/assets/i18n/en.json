@@ -53,5 +53,15 @@
   "Back": "Back",
   "Show-Basket": "Show Basket",
   "Close" : "Close",
-  "Add-to-basket": "Add to Basket"
+  "Add-to-basket": "Add to Basket",
+  "Add-now": "Add now",
+  "No-basket-products": "You don't have products in basket",
+  "Basket-title": "Your basket",
+  "Cancel-order": "Cancel Order",
+  "Cancel-order-confirm": "Are you sure , do you want to cancel order ?",
+  "Yes": "Yes",
+  "No": "No",
+  "Pay": "Pay",
+  "Delete-basket-item-confirm": "Are you sure you want to remove the product from the basket?"
+
 }

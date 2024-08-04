@@ -4,5 +4,6 @@ export interface CategoryProductInterface{
   ingredients:string,
   weight: string,
   img:string,
-  price: number
+  price: number,
+  quantity:number
 }

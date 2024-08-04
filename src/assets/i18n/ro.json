@@ -53,5 +53,14 @@
   "Back": "Inapoi",
   "Show-Basket": "Arata Cosul",
   "Close" : "Inchide",
-  "Add-to-basket": "Adauga in Cos"
+  "Add-to-basket": "Adauga in Cos",
+  "Add-now": "Adauga acum",
+  "No-basket-products": "Nu aveti niciun produs in cos",
+  "Basket-title": "Cosul tau",
+  "Cancel-order": "Anuleaza comanda",
+  "Cancel-order-confirm": "Esti sigur ca vrei sa anulezi comanda ?",
+  "Da": "Da",
+  "Nu": "Nu",
+  "Pay": "Plateste",
+  "Delete-basket-item-confirm": "Esti sigur ca vrei sa elimini produsul din cos?"
 }

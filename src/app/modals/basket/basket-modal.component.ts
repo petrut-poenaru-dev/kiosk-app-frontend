@@ -64,4 +64,9 @@ export class BasketModalComponent implements OnInit {
     this._router.navigate(['/menu']).then();
     this.closeModal();
   }
+
+  public goToPay(){
+    this._router.navigate(['/payment-menu']).then();
+    this.closeModal();
+  }
 }

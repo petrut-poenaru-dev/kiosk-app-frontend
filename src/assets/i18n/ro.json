@@ -62,5 +62,9 @@
   "Da": "Da",
   "Nu": "Nu",
   "Pay": "Plateste",
-  "Delete-basket-item-confirm": "Esti sigur ca vrei sa elimini produsul din cos?"
+  "Delete-basket-item-confirm": "Esti sigur ca vrei sa elimini produsul din cos?",
+  "Pay-here": "Plateste la casa de marcat",
+  "Pay-with-card": "Plateste cu cardul",
+  "Order-number": "Numarul comenzii",
+  "Thanks": "Multumim pentru comanda efectuata"
 }

@@ -26,7 +26,7 @@
         <div class="add-one" (click)="addNow()" *ngIf="basket.length === 0">{{'Add-now' | translate}}</div>
         <div class="close" *ngIf="basket.length !== 0"
              (click)="openCancelOrderModal()">{{'Cancel-order' | translate}}</div>
-        <div class="add-one" *ngIf="basket.length !== 0" (click)="closeModal()">{{'Pay' | translate}}</div>
+        <div class="add-one" *ngIf="basket.length !== 0" (click)="goToPay()">{{'Pay' | translate}}</div>
       </div>
     </div>
   </div>

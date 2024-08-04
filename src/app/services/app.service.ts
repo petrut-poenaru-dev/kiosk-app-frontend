@@ -18,4 +18,8 @@ export class AppService{
   public getProducts():Observable<Array<ProductsInterface>>{
     return this._http.get<Array<ProductsInterface>>('http://localhost:3333/api/products');
   }
+
+  public getOrderNumber():Observable<number>{
+    return this._http.post<number>('http://localhost:3333/api/orderNumber' , {});
+  }
 }

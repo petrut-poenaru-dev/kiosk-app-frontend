@@ -2,6 +2,7 @@ import {Component, OnInit} from "@angular/core";
 import {CommonModule} from "@angular/common";
 import {TranslateModule} from "@ngx-translate/core";
 import {AppService} from "../../services/app.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector:'app-main-menu',
@@ -12,11 +13,10 @@ import {AppService} from "../../services/app.service";
 })
 
 export class MainMenuComponent implements OnInit{
-
     public mainSections!: Array<string>;
     public icons:Array<string> = ['icon-drinks' , 'icon-coffee' , 'icon-ice-cream' , 'icon-cake' , 'icon-fresh-juices']
 
-    constructor(private _appService:AppService) {
+    constructor(private _appService:AppService , private _router:Router) {
     }
 
     public ngOnInit() {
@@ -27,4 +27,7 @@ export class MainMenuComponent implements OnInit{
     }
 
 
+  public goToSection(section:string){
+    this._router.navigate([`category-menu/${section}`]);
+  }
 }

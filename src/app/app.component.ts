@@ -4,11 +4,12 @@ import {AppService} from "./services/app.service";
 import {CommonModule} from "@angular/common";
 import {SelectLanguageComponent} from "./components/select-language-component/select-language.component";
 import {TranslateModule, TranslateService} from "@ngx-translate/core";
+import {CategoryMenuComponent} from "./components/category-menu-component/category-menu.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet , CommonModule , SelectLanguageComponent , TranslateModule],
+  imports: [RouterOutlet , CommonModule , SelectLanguageComponent , TranslateModule , CategoryMenuComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -3,7 +3,7 @@
     {{categorySection.title | translate}}
   </div>
   <div class="buttons-container">
-    <div class="button" *ngFor="let button of categorySection.buttons">
+    <div class="button" (click)="openProductDetailsModal(categorySection.title , button.id)" *ngFor="let button of categorySection.buttons">
       <img [src]="button.img" alt="">
       <span class="button-title">{{button.title | translate}}</span>
       <span class="button-ingredients">{{button.ingredients | translate}}</span>
